@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/assets/css/style.css">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>FinalProject</title>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -35,28 +40,28 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="container">
         <nav class="navbar-2">
             <div class="navbar-2-left mx-lg-5">
                 <img src="https://bonik-react.vercel.app/assets/images/logo.svg" alt="">
             </div>
             <div class="navbar-center d-flex">
-               <div class="search">
-                <input type="text" placeholder="Search and Enter ">
-               </div>
-               <div class="categories">
-                <select name="select-option" id="">
-                    <option value="allCatagories"> All Catagories </option>
-                    <option value="car">Car</option>
-                    <option value="clothes">clothes</option>
-                    <option value="elektonics">electronics</option>
-                    <option value="laptop">laptop</option>
-                    <option value="desktop">desktop</option>
-                    <option value="camera">camera</option>
-                    <option value="toys">toys</option>
-                </select>
-               </div>
+                <div class="search">
+                    <input type="text" placeholder="Search and Enter ">
+                </div>
+                <div class="categories">
+                    <select name="select-option" id="">
+                        <option value="allCatagories"> All Catagories </option>
+                        <option value="car">Car</option>
+                        <option value="clothes">clothes</option>
+                        <option value="elektonics">electronics</option>
+                        <option value="laptop">laptop</option>
+                        <option value="desktop">desktop</option>
+                        <option value="camera">camera</option>
+                        <option value="toys">toys</option>
+                    </select>
+                </div>
             </div>
             <div class="navbar-2-right d-flex">
                 <i class="fa-solid fa-user mx-3"></i>
@@ -68,7 +73,9 @@
     <div class="container">
         <nav class="navbar-cat">
             <div class="navbar-categories">
-                <span class="category">Categories</span>
+                <div class="cat-left-items d-flex justify-content-between ">
+                    <span class="category">Categories</span> <i class="fa-solid fa-caret-down"></i>
+                </div>
             </div>
             <div class="navbar-items">
                 <ul class="words-list">
@@ -82,34 +89,169 @@
             </div>
         </nav>
     </div>
-    
 
-
-
-   <div class="container">
-    <nav class="navbar-3">
-        <div class="navbarall d-flex">
-            <div class="navbar-3-left d-flex my-5 py-5">
-                <ul>
-                    <li> <i class="fa-solid fa-vest-patches"></i> <span>Clothes</span> </li>
-                    <li> <i class="fa-solid fa-laptop"></i> <span>Electron</span></li>
-                    <li> <i class="fa-solid fa-person-biking"></i> <span>Bikes</span></li>
-                    <li> <i class="fa-solid fa-house-chimney"></i> <span>Home and Garden</span></li>
-                    <li> <i class="fa-solid fa-gifts"></i> <span>Gifts</span></li>
-                    <li> <i class="fa-solid fa-headphones"></i> <span>Music</span></li>
-                </ul>
+    <div class="container">
+        <nav class="navbar-3">
+            <div class="navbarall d-flex">
+                <div class="navbar-3-left d-flex my-5 py-3">
+                    <div class="right-items d-flex justify-content-center ">
+                        <ul class=" ">
+                            <li> <i class="fa-solid fa-vest-patches"></i> <span>Clothes</span> <i
+                                    class="fa-solid fa-caret-right"></i> </li>
+                            <li> <i class="fa-solid fa-laptop"></i> <span>Electron</span> <i
+                                    class="fa-solid fa-caret-right"></i> </li>
+                            <li> <i class="fa-solid fa-person-biking"></i> <span>Bikes</span> <i
+                                    class="fa-solid fa-caret-right"></i> </li>
+                            <li> <i class="fa-solid fa-house-chimney"></i> <span>Home and Garden</span></li>
+                            <li> <i class="fa-solid fa-gifts"></i> <span>Gifts</span></li>
+                            <li> <i class="fa-solid fa-headphones"></i> <span>Music</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-3-right d-flex my-5 py-5">
+                    <div class="words">
+                        <h1>50% Off For Your First Shopping </h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit sapiente ab tempore!
+                            Praesentium, assumenda, magnam eum alias quia modi expedita nihil sint officia vero
+                            inventore voluptatum esse ea similique fugiat.</p>
+                        <button class="btn btn-danger "> Shop Now </button>
+                    </div>
+                    <div class="img"> <img src="https://bonik-react.vercel.app/assets/images/products/apple-watch-0.png"
+                            alt=""> </div>
+                </div>
             </div>
-            <div class="navbar-3-right d-flex my-5 py-5">
-              <div class="words">
-                <h1>50% Off For Your First Shopping </h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit sapiente ab tempore! Praesentium, assumenda, magnam eum alias quia modi expedita nihil sint officia vero inventore voluptatum esse ea similique fugiat.</p>  
-                <button class="btn btn-danger "> Shop Now </button>
-              </div>
-              <div class="img"> <img src="https://bonik-react.vercel.app/assets/images/products/apple-watch-0.png" alt=""> </div>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+
+<div class="container">
+ <div class="flash ">
+    <div class="flash-up d-flex justify-content-between ">
+      <div class="flash-up-left d-flex">
+        <i class="fa-solid fa-bolt"></i>
+        <h2>Flash Deals</h2>
+      </div>
+      <div class="flash-up-right">
+         <span> View All</span>
+        <i class="fa-solid fa-caret-right"></i>
+      </div>
+    </div>
+<div class="flash-2">
+    <div class="container">
+        <div class="scrool-price d-flex">
+           <div class="whatch">
+    <div class="sales"> <p>21% off</p> </div>
+    <a href=""><img src="/assets/img/flash-4.png" alt=""></a> 
+    <h2>MI Led Smart Watch</h2>
+    <div class="stars">
+   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+    <div class="price">
+      <span>$142.20</span> <span class="text-decoration-line-through "">$180</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container">
+<div class="scrool-price-2 d-flex">
+ <div class="sneaker">
+   <div class="sales-2"> <p>25% off</p> </div>
+   <a href=""><img src="/assets/img/flash-1.png" alt=""></a> 
+   <h2>MI Led Smart Watch</h2>
+   <div class="stars-2">
+  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
    </div>
+   <div class="price-2">
+     <span>$142.20</span> <span class="text-decoration-line-through "">$180</span>
+   </div>
+ </div>
+</div>
+</div>
+<div class="container">
+<div class="scrool-price-3 d-flex">
+<div class="non-whatch">
+<div class="sales-3"> <p>15% off</p> </div>
+<a href=""><img src="/assets/img/flash-2.png" alt=""></a> 
+<h2>Classic Rolex Watch</h2>
+<div class="stars-3">
+<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+</div>
+<div class="price-3">
+ <span>$297.50</span> <span class="text-decoration-line-through "">$300</span>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="scrool-price-4 d-flex">
+ <div class="telephone">
+   <div class="sales-4"> <p>15% off</p> </div>
+   <a href=""><img src="/assets/img/flash-3.png" alt=""></a> 
+   <h2>Classic Rolex Watch</h2>
+   <div class="stars-4">
+  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+   </div>
+   <div class="price-4">
+     <span>$1500.50</span> <span class="text-decoration-line-through "">$850</span>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+ </div>
+</div>
+
+<footer>
+<div class="container d-flex">
+    <div class="first-footer">
+        <div class="introducing">
+       <img src="https://bonik-react.vercel.app/assets/images/logo.svg" alt="">
+       <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quisquam molestiae tempore porro sint laborum.
+       </p>
+       </div>
+       <div class="logo d-flex ">
+           <div class="left-app">
+               <i class="fa-brands fa-app-store"></i>
+           </div>
+           <div class="right-app-store">
+               <p>Get it on</p>
+               <h2>App Store</h2>
+           </div>
+           <div class="right-app">
+               <i class="fa-brands fa-google-play"></i>
+           </div>
+           <div class="right-app-store">
+               <p>Get it on</p>
+               <h2>Google Play</h2>
+           </div>     
+       </div>
+       </div>
+       <div class="second-footer">
+         <h1>About Us</h1>
+         <ul>
+            <li> <a href="">Careers</a></li>
+            <li><a href="">OurCares</a></li>
+            <li> <a href="">Privarcery</a></li>
+         </ul>
+       </div>
+       <div class="thrid-footer">
+        <h1>Customer Care</h1>
+        <ul>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">How to buy</a></li>
+            <li><a href="">Track your Order</a></li>
+        </ul>
+       </div>
+       <div class="fourth-footer">
+        <h1>Contact Us</h1>
+        <p>70 Washington Square South, New York, NY 10012, United States</p>
+        <p>Email: uilib.help@gmail.com</p>
+        <p>Phone: +1 1123 456 780</p>
+       </div>
+</div> 
+</footer>
     <script src="/assets/script/script.js"></script>
 </body>
+
 </html>
