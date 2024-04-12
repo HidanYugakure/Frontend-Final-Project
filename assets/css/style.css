@@ -92,7 +92,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    color: #fff;
+    color: black;
     padding: 10px 20px;
 }
 
@@ -114,9 +114,10 @@ body {
 
 .navbar-2-right i {
     border-radius: 100%;
-    border: 2px solid grey;
+    border: 2px solid #E94560;
     padding: 15px;
-    background-color: grey;
+    background-color:#E94560;
+    color: #0F3460;
 }
 
 .navbar-3-left ul {
@@ -267,9 +268,13 @@ footer .left-logo, .right-logo{
 }
 
 .topratings .bottom{
-    border: 1px solid white;
+    border: 1px solid #E94560;
     border-radius: 15px;
     background-color:white;
+}
+
+.bottom-product img{
+    padding: 10px 10px;
 }
 
 .bottom-product p{
@@ -314,7 +319,7 @@ footer .left-logo, .right-logo{
 }
 
 .bottom {
-    border: 1px solid white;
+    border: 1px solid #E94560;
     border-radius:15px;
 }
 
@@ -332,9 +337,69 @@ footer .left-logo, .right-logo{
     color:grey;
 }
 
+.n-left i{
+font-size: 30px;
+color: #E94560;
+}
 
+.n-right i, .n-right span{
+    font-size: 15px;
+    color: grey;
+}
 
+.newproduct img{
+    width: 200px;
+    padding: 10px 10px;
+}
 
+.newproduct h2{
+    padding-top: 8px;
+    color: black ;
+}
+
+.newproduct p{
+    padding: 0 2px;
+    color: #E94560;
+}
+
+.new-product {
+    border: 2px solid #E94560;
+    border-radius: 15px;
+}
+
+.featured .top-right i, .featured .top-right span{
+    font-size: 15px;
+}
+
+.topratings .top-rightt i, .topratings .top-right span{
+    font-size: 15px;
+}
+
+.new-product .newproduct img:hover{
+    filter:brightness(80%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.new-product .newproduct p, .new-product .newproduct h2{
+    margin-left: 15px;
+}
+
+.image-group{
+    width: 100%;
+}
+
+.image-group .image-left{
+    width: 30%;
+}
+
+.image-group .image-right{
+    width: 60%;
+}
+
+.image-right img, .image-left img{
+    width: 100%;
+}
 
 
 
