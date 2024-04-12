@@ -204,169 +204,6 @@ body {
     color: grey;
 }
 
-.scrool-price{
-    position: relative;
-    border: 1px solid grey;
-    border-radius: 20px;
-    background-color: white;
-    width: 25%;
-    height: 55%;
-}
-
-.scrool-price .sales{
-    border: 1px solid #E94560;
-    background-color: #E94560;
-    color: #fff;
-    border-radius: 100px;
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 25px;
-    font-size: 15px;
-    text-align: center;
-    top: 4.2%;
-    left: 4.2%;
-}
-
-.stars{
-    color: #FFCD4E;
-    font-size: 16px;
-    padding: 0 4%;
-}
-
-.scrool-price h2{
-    color: #434A5A;
-    padding: 0 4%;
-    font-size: 15px;
-}
-
-.scrool-price-2{
-    position: relative;
-    border: 1px solid grey;
-    border-radius: 20px;
-    background-color: white;
-    width: 25%;
-    height: 55%;
-}
-
-.scrool-price-2 .sales-2{
-    border: 1px solid #E94560;
-    background-color: #E94560;
-    color: #fff;
-    border-radius: 100px;
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 25px;
-    font-size: 15px;
-    text-align: center;
-    top: 4.2%;
-    left: 4.2%;
-}
-
-.stars-2{
-    color: #FFCD4E;
-    font-size: 16px;
-    padding: 0 4%;
-}
-
-.scrool-price-2 h2{
-    color: #434A5A;
-    padding: 0 4%;
-    font-size: 15px;  
-}
-
-.price-2{
-    font-size: 14px;
-    padding: 0 4%;
-}
-
-.scrool-price-3{
-    position: relative;
-    border: 1px solid grey;
-    border-radius: 20px;
-    background-color: white;
-    width: 25%;
-    height: 55%;
-}
-
-.scrool-price-3 .sales-3{
-    border: 1px solid #E94560;
-    background-color: #E94560;
-    color: #fff;
-    border-radius: 100px;
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 25px;
-    font-size: 15px;
-    text-align: center;
-    top: 4.2%;
-    left: 4.2%;
-}
-
-.stars-3{
-    color: #FFCD4E;
-    font-size: 16px;
-    padding: 0 4%;
-}
-
-.scrool-price-3 h2{
-    color: #434A5A;
-    padding: 0 4%;
-    font-size: 15px;  
-}
-
-.price-3{
-    font-size: 14px;
-    padding: 0 4%;
-}
-
-.scrool-price-4{
-    position: relative;
-    border: 1px solid grey;
-    border-radius: 20px;
-    background-color: white;
-    width: 25%;
-    height: 55%;
-}
-
-.scrool-price-4 .sales-4{
-    border: 1px solid #E94560;
-    background-color: #E94560;
-    color: #fff;
-    border-radius: 100px;
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 25px;
-    font-size: 15px;
-    text-align: center;
-    top: 4.2%;
-    left: 4.2%;
-}
-
-.stars-4{
-    color: #FFCD4E;
-    font-size: 16px;
-    padding: 0 4%;
-}
-
-.scrool-price-4 h2{
-    color: #434A5A;
-    padding: 0 4%;
-    font-size: 15px;  
-}
-
-.price-4{
-    font-size: 14px;
-    padding: 0 4%;
-}
-
-.left-app i, .right-app i{
-font-size: 50px;
-}
-
 footer{
     background-color: #0F3460;
 }
@@ -412,3 +249,157 @@ footer ul{
 footer{
     padding: 50px 0;
 }
+
+footer .left-logo, .right-logo{
+    background-color: blue;
+}
+
+.bottom-product img:hover{
+    filter:brightness(80%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bottom-product img{
+    border: 1px solid #F6F9FC;
+    border-radius: 35px;
+    width: 155px;
+}
+
+.topratings .bottom{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color:white;
+}
+
+.bottom-product p{
+    text-align: center;
+    margin: 0;
+}
+
+.bottom-product .stars {
+    text-align: center;
+    margin: 0;
+    padding: 10px ;
+}
+
+.bottom-product .stars i{
+    font-size: 12px;
+}
+
+.top-left i,h1{
+    font-size: 28px;
+}
+
+.top-right span, i{
+    font-size: 20px;
+}
+
+.featured .top i,h1{
+    font-size: 28px;
+}
+
+.top-left i{
+    color: #E94560;
+}
+
+.featured .top i{
+    color: #E94560;
+}
+
+.bottom .top-product img:hover{
+    filter:brightness(80%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bottom {
+    border: 1px solid white;
+    border-radius:15px;
+}
+
+.top-product img{
+    width: 280px;
+    padding: 15px;
+   
+}
+
+.top .top-right span,i{
+    color: grey;
+}
+
+.featured .top-right i, .featured .top-right span{
+    color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
