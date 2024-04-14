@@ -3,98 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style2.css">
-    <title>Document</title>
+    <title>Tab Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-<div class="container ">
-    <div class="flash d-flex justify-content-between ">
-       <div class="flash-up d-flex justify-content-between ">
-         <div class="flash-up-left d-flex">
-           <i class="fa-solid fa-bolt"></i>
-           <h2>Flash Deals</h2>
-         </div>
-         <div class="flash-up-right">
-            <span> View All</span>
-           <i class="fa-solid fa-caret-right"></i>
-         </div>
-       </div>
-      <div class="flash-2">
-           <div class="scrool-price d-flex">
-              <div class="whatch">
-       <div class="sales"> <p>21% off</p> </div>
-       <a href=""><img src="/assets/img/flash-4.png" alt=""></a> 
-       <h2>MI Led Smart Watch</h2>
-       <div class="stars">
-      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-       </div>
-       <div class="price">
-         <span>$142.20</span> <span class="text-decoration-line-through ">$180</span>
-       </div>
-     </div>
-   </div>
-   
-   
-   
-   <div class="scrool-price-2 d-flex">
-    <div class="sneaker">
-      <div class="sales-2"> <p>25% off</p> </div>
-      <a href=""><img src="/assets/img/flash-1.png" alt=""></a> 
-      <h2>MI Led Smart Watch</h2>
-      <div class="stars-2">
-     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-      </div>
-      <div class="price-2">
-        <span>$142.20</span> <span class="text-decoration-line-through "">$180</span>
-      </div>
+
+<div class="tabs">
+    <button class="tablink" onclick="openTab('tab1')">Tab 1</button>
+    <button class="tablink" onclick="openTab('tab2')">Tab 2</button>
+</div>
+
+<div class="tab-content">
+    <div id="tab1" class="tab">
+        <h2>Tab 1 Content</h2>
+        <p>This is the content of Tab 1.</p>
+        <p>Tab 1 is active by default.</p>
     </div>
-   </div>
-  
- 
-   <div class="scrool-price-3 d-flex">
-   <div class="non-whatch">
-   <div class="sales-3"> <p>15% off</p> </div>
-   <a href=""><img src="/assets/img/flash-2.png" alt=""></a> 
-   <h2>Classic Rolex Watch</h2>
-   <div class="stars-3">
-   <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-   </div>
-   <div class="price-3">
-    <span>$297.50</span> <span class="text-decoration-line-through "">$300</span>
-   </div>
-   </div>
-   </div>
-  
-  
-   <div class="scrool-price-4 d-flex">
-    <div class="telephone">
-      <div class="sales-4"> <p>15% off</p> </div>
-      <a href=""><img src="/assets/img/flash-3.png" alt=""></a> 
-      <h2>Classic Rolex Watch</h2>
-      <div class="stars-4">
-     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-      </div>
-      <div class="price-4">
-        <span>$1500.50</span> <span class="text-decoration-line-through "">$850</span>
-      </div>
+    <div id="tab2" class="tab" style="display:none;">
+        <h2>Tab 2 Content</h2>
+        <p>This is the content of Tab 2.</p>
+        <p>Click on Tab 2 to view this content.</p>
     </div>
-   </div>
-   
-   </div>
-    </div>
-   </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
 
+<style>
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
 
+.tabs {
+    display: flex;
+}
 
-   
-   
-   
-   
-   
-   
+.tablink {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tablink:hover {
+    background-color: #ddd;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.active {
+    display: block;
+}
+
+</style>

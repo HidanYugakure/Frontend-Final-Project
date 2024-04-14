@@ -476,3 +476,124 @@ color: #E94560;
     text-align: center;
     padding-top: 10px;
 }
+
+.f-up-left i{
+    padding: 5px;
+    color: #E94560;
+}
+
+.f-up-right i{
+    color: grey;
+    font-size: 15px;
+}
+.f-up-right span{
+    color: grey;
+}
+.f-down h1{
+    font-size: 15px;
+}
+
+.f-down-all{
+    justify-content: space-between;
+}
+
+.card-f-down{
+    width: 284px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.card-f-down .sales{
+    position: absolute;
+}
+.card-f-down p, .card-f-down h1, .card-f-down .stars{
+padding: 15px;
+}
+.flash-deals{
+    margin-bottom: 70px;
+}
+.flash-deals .f-down .stars i{
+    color:#FFCD4E;
+}
+.flash-deals .f-down .sales {
+    color:#F6F9FC;
+}
+.flash-deals .f-down .price p{
+    color: #E94560;
+}
+
+.top-down .order-head {
+    border: 1px solid #0C2A4D;
+    border-radius: 8px;
+    background-color: #0F3460;
+    width: 25%;
+}
+.top-down .order-head p{
+    font-size: 15px;
+    color:white;
+}
+.top-down{
+    position: absolute;
+}
+.top-down .order-head .head{
+    position: relative;
+}
+
+.card-all {
+    margin-top: 30px;
+}
+
+.mobile-card{
+    margin-top: 35px;
+}
+
+.m-card{
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.m-card img{
+    width: 350px;
+}
+
+.m-card .sales{
+position: absolute;
+}
+.m-card .stars i{
+    color:#FFCD4E;
+}
+.m-card .sales {
+    color:#F6F9FC;
+}
+.m-card .price p{
+    color: #E94560;
+}
+
+.m-card p, .m-card h1, .m-card .stars{
+    padding: 15px;
+}
+.mobile-card-left {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.mobile-card-left a{
+    text-decoration: none;
+}
+.mobile-cards-left{
+    width: 25%;
+}
+.mobile-cards-right{
+    width: 75%;   
+}
+
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+
+
