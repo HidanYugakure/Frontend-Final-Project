@@ -589,11 +589,102 @@ position: absolute;
 
 .tabcontent {
     display: none;
-}
+} 
 
 .tabcontent.active {
     display: block;
 }
+
+.catagories-up .up-left i{
+    padding-top: 6px;
+    color: #E94560;
+}
+
+.c-down img{
+width: 50px;
+height: 50px;
+}
+
+.c-down p{
+    margin-top: 10px;
+}
+
+.c-down{
+    width: 200px; 
+    height: 50px; 
+    background-color: whitesmoke;
+    border-radius: 8px; 
+    transition: box-shadow 0.3s ease; 
+    padding: 0.75rem;
+    display: flex;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.c-down:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.up-left i{
+    margin-right: 10px;
+}
+
+.catagories-all{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.mfy-up .up-left i{
+    color: #E94560;
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

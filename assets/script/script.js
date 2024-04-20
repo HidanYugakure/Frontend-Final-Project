@@ -1,4 +1,4 @@
-// Sayfa yüklendiğinde çalışacak fonksiyon
+
 document.addEventListener('DOMContentLoaded', function() {
     openTab('brands');
 
