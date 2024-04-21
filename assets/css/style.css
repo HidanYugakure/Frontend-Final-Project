@@ -243,11 +243,29 @@ color: #F6F9FC;
 }
 
 footer .right-app-store p,h2{
-   font-size: 15px;
+   font-size: 14px;
 }
 
 footer ul{
     list-style-type: none;
+}
+
+.left-app img{
+    width: 44px;
+    height: 44px;
+}
+.left-logo {
+    height: 60px;
+    width: 200px;
+}
+.right-app img{
+    width: 44px;
+    height: 44px;
+    
+}
+.right-logo {
+    width: 200px;
+    height: 60px;
 }
 
 footer{
@@ -699,6 +717,37 @@ height: 50px;
 .card-camera {
     margin-bottom: 40px;
 }
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+.end-div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.end-div i{
+    font-size: 20px;
+    background-color: #F3F5F9;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.end-div p{
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
 
 
 
