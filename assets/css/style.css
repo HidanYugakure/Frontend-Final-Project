@@ -413,13 +413,14 @@ color: #E94560;
 }
 
 .lord-2019{
-    border: 1px solid #E94560;
     border-radius: 15px;
     width: 100%;
+    height: 100%;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .lord-2019 img{
-    width: 100%;
+    width: 80%;
 }
 .sales {
     display: inline-flex;
@@ -638,6 +639,65 @@ height: 50px;
     color: #E94560;
     margin-right: 10px;
     font-size: 35px;
+}
+
+.mfy{
+    margin-top: 58px;
+    margin-bottom: 58px;
+    
+}
+.mfy-down .lord-2019 {
+    height: 80%;
+}
+
+
+.mfy-down .lord-2019{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.mfy-down .lord-2019 img{
+    width: 90%;
+}
+.mfy-down .sales {
+    display: inline-flex;
+    border-radius: 300px;
+    transition: all 150ms ease-in-out 0s;
+    cursor: unset;
+    box-shadow: unset;
+    padding: 5px 10px;
+    background-color: rgb(233, 69, 96);
+    color:white;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    z-index: 1;
+    font-size: 10px;
+    font-weight: 600;
+}
+.mfy-down .lord-2019 .stars i{
+    color: #FFCD4E;
+    font-size: 15px;
+}
+.mfy-down .lord-2019 .stars{
+    padding: 15px;
+}
+.mfy-down .lord-2019 p{
+    padding: 15px;
+    font-weight: 15px;
+    color: #E94560;
+}
+
+.mfy-down .lord-2019 h1{
+    font-size: 16px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.card-camera {
+    margin-bottom: 40px;
 }
 
 
